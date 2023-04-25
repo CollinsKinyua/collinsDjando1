@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>myhomepage</title>
+</head>
+<body>
+<h2>This is my first page</h2>
+<a href="{% url 'my-about' %}">About</a>
+<a href="{% url 'my-contact' %}">contact</a>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad blanditiis ipsum nemo nobis nostrum officiis vitae voluptates. Adipisci assumenda blanditiis culpa dolor, eveniet minus non optio porro qui sequi. Vero?</span><span>Asperiores assumenda aut autem blanditiis consectetur deserunt doloribus et explicabo hic inventore iste libero maiores molestiae odit, pariatur quasi quis repellat similique sit veniam. Accusamus consequuntur et id laboriosam libero?</span><span>Aliquid atque corporis delectus eligendi ex explicabo fugiat, officia perferendis placeat quibusdam quidem quisquam, quod quos ratione, sed similique tempore! Aspernatur eius laboriosam mollitia, neque nisi nostrum ullam. Corporis, quasi!</span><span>Adipisci beatae culpa cumque debitis ducimus facilis illo ipsam ipsum minus molestias mollitia quae quam, quo sequi unde vel voluptatem. Consectetur, magnam natus omnis quis quo quod repellat ullam vel.</span><span>A adipisci architecto, consequuntur culpa cupiditate debitis earum enim fuga harum illo illum
+    magni minus nam natus nihil officia optio praesentium quae recusandae saepe sed similique sint soluta suscipit vel?</span></p>
+<img src="{% static 'images/mercedez.jpeg' %}]" alt="">
+<img src="{% static 'images/g-class.jpeg' %}" alt="">
+</body>
+</html>
